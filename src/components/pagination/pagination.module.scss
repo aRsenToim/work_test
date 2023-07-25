@@ -1,0 +1,25 @@
+.Pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    .Pagination__link{
+        color: #474955;
+        font-size: 21px;
+        text-decoration: none;
+    }
+    .Pagination__buttons{
+        .Pagination__button{
+            text-decoration: none;
+            color: #474955;
+            padding: 4px;
+            font-size: 21px;
+        }
+        .Pagination__button__active{
+            text-decoration: none;
+            color: #7EBC3C;
+            padding: 4px;
+            font-size: 21px;
+        }
+    }
+}

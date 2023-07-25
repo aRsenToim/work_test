@@ -1,0 +1,23 @@
+.Header{
+    background-color: #474955;
+    padding: 15px;
+    .Header__btns{
+        display: grid;
+        grid-template-columns: 5% 1fr 1fr;
+        .Header__btn{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            list-style: none;
+            color: #fff;
+            font-size: 18px;
+            img{
+                margin-left: 10px;
+            }
+            .Header__btn__img{
+                margin-left: 10px;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
